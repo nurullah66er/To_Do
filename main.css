@@ -50,9 +50,13 @@ body{
     color: white;
     background-color: var(--accent-color);
     box-sizing: border-box;
+    transition: ease-in-out;
+    transition-duration: .3s;
    
    
 }
+
+
 .btn-gorev-ekle:hover::before{
     content: 'Add';
     top:-64%;
@@ -61,6 +65,8 @@ body{
     position: absolute;
     box-sizing: border-box;
     background-color: var(--accent-color);
+    transition: ease-in-out;
+    transition-duration: 1s;
 }
 
 .gorev-container{
